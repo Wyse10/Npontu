@@ -1,6 +1,6 @@
-**House Price Prediction – ML Pipeline & REST API**
+# **House Price Prediction – ML Pipeline & REST API**
 This project demonstrates how to build a simple Machine Learning pipeline (data preprocessing → training → evaluation), deploy it as a REST API using Flask, and test predictions with a Python client
-**Project Overview**
+# **Project Overview**
 
 This project implements a machine learning pipeline to predict house prices using the Melbourne Housing Dataset. The workflow includes:
 
@@ -16,7 +16,7 @@ Testing API predictions with a Python client
 
 This project demonstrates the complete end-to-end ML lifecycle: preprocessing → training → evaluation → deployment → monitoring.
 
-**Installation**
+# **Installation**
 Clone the repo and set up the environment:
 bash
 git clone https://github.com/Wyse10/Npontu.git
@@ -28,20 +28,20 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-**How to Run the Project**
-***Start the Flask API***
+# **How to Run the Project**
+## **Start the Flask API**
 Bash
 python app.py
 
-***Test the API with Python Client***
+## **Test the API with Python Client**
 Bash
 python test.py
 
-**Model Evaluation**
+# **Model Evaluation**
 The model was evaluated using the following metrics:
 R² Score → how well the model explains variance in the data.
 
-**Monitoring Model Performance in Production**
+# **Monitoring Model Performance in Production**
 Over time, model accuracy may degrade due to data drift or concept drift.
 To monitor performance in production:
 Track Prediction Distribution → monitor shifts in predicted prices compared to training distribution.
@@ -54,7 +54,7 @@ Track Prediction Distribution → monitor shifts in predicted prices compared to
 
 4.Error Analysis → log and review large deviations to improve pipeline.
 
-**Tech Stack**
+# **Tech Stack**
 1.Python 3.10+
 
 2.Pandas / NumPy → data preprocessing
