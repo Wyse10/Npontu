@@ -8,7 +8,7 @@ Data preprocessing (outlier removal, scaling, one-hot encoding)
 
 Model training with LinearRegression inside a Pipeline
 
-Model evaluation with multiple regression metrics (MAE, RMSE, R², MAPE)
+Model evaluation with multiple regression metrics (R²)
 
 Deployment of the trained model as a REST API using Flask
 
